@@ -1,94 +1,106 @@
-.group_booking_wrapper{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: auto;
-    padding:100px 20px;
+.group_booking_wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  padding: 100px 20px;
 }
-.form_input_wrapper{
-    display: flex;
-    
-    justify-content: space-between;
-    align-items: center;
+.form_input_wrapper {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
 }
-.booking_card_wrapper{
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.booking_card_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.side_right{
-    position: relative;
-    /* width: 80%; */
+.side_right {
+  position: relative;
+  /* width: 80%; */
 }
-.cal_wrapper{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 30px 10px;
-    height: 100vh;
-    /* position: fixed; */
-    width: 350px;
-    border-radius: 8px;
-    background-color: #c7081b;
+.cal_wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px 10px;
+  height: 100vh;
+  /* position: fixed; */
+  width: 350px;
+  border-radius: 8px;
+  background-color: #c7081b;
 }
-.form_input{
-    height: 100%;
-    width: 100%;
-background: transparent;
-color: white;
-font-size: 14px;
-outline: none !important;
-    border: none !important;
+.form_input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  outline: none !important;
+  border: none !important;
 }
-.bookingcard{
-    padding: 30px 20px;
-    height: 280px;
-    width: 300px;
-    position: relative;
-    /* border: 1px solid black; */
-    border-radius: 8px;
-    background-color:#c7081b !important;
+.bookingcard {
+  padding: 30px 20px;
+  height: 280px;
+  width: 300px;
+  position: relative;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  background-color: #c7081b !important;
 }
-.enter_btn{
-    background-color: white;
-    color: #c7081b;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    position: absolute;
-    bottom: 15px;
-    width: 88%;
-    height: 40px;
-    margin-top: 10px;
+.enter_btn {
+  background-color: white;
+  color: #c7081b;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  width: 88%;
+  height: 40px;
+  margin-top: 10px;
 }
-.input_container{
-    display: flex;
-    height: 30px;
-    width: 100%;
-    border-radius: 3px;
-    padding: 0px 10px;
-    border: 1px solid white;
+.input_container {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0px 10px;
+  border: 1px solid white;
 }
-.input_container1{
-    display: flex;
-    height: 30px;
-    width: 120px;
-    border-radius: 3px;
-    padding: 0px 10px;
-    border: 1px solid white;
+.input_container1 {
+  display: flex;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+  padding: 0px 10px;
+  border: 1px solid white;
 }
 ::placeholder {
-    color:white;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: white;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-   color: white;
-  }
-  .opt_text{
-      color: black;
-  }
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+.opt_text {
+  color: black;
+}
+
+.submit {
+  margin: 40px 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #c7081b;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}

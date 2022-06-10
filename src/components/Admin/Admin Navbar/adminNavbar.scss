@@ -1,0 +1,290 @@
+.admin-navbar {
+  padding: 50px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c4c4c4;
+
+  .left {
+    font-family: nasa21;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000;
+  }
+
+  .right {
+    .profile-wrap {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .text-wrap {
+        margin-right: 25px;
+        font-family: "Chivo";
+        font-weight: 400;
+        text-align: right;
+
+        .name {
+          font-size: 24px;
+          line-height: 29px;
+          color: #000;
+        }
+
+        .admin {
+          font-size: 18px;
+          line-height: 21px;
+          color: #6f6f6f;
+        }
+      }
+
+      .profile {
+        margin-right: 20px;
+        width: 60px;
+        img {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+
+      .icon {
+        width: 24px;
+        transform: rotate(0deg);
+        transition: all 0.1s ease-in-out;
+        img {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+
+      .icon-up {
+        transform: rotate(-180deg);
+      }
+    }
+
+    .logout-btn {
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+      background: linear-gradient((93deg, #4059a6 0%, #6ec8d2 100%));
+      border-radius: 5px;
+
+      font-family: "Chivo";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #fff;
+
+      padding: 15px;
+      height: max-content;
+      opacity: 1;
+
+      transition: all 0.1s ease-in-out;
+    }
+
+    .hide-logout {
+      margin-top: 0;
+      padding: 0;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+    }
+  }
+}
+
+.admin-sidebar-show-on-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1750px) {
+  .admin-navbar {
+    padding: 50px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+
+    .left {
+      font-size: 46px;
+      line-height: 57px;
+    }
+
+    .right {
+      .profile-wrap {
+        .text-wrap {
+          margin-right: 20px;
+
+          .name {
+            font-size: 20px;
+            line-height: 25px;
+          }
+
+          .admin {
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+
+        .profile {
+          margin-right: 15px;
+          width: 55px;
+        }
+
+        .icon {
+          width: 20px;
+        }
+      }
+
+      .logout-btn {
+        margin-top: 20px;
+
+        font-size: 20px;
+        line-height: 25px;
+
+        padding: 15px;
+      }
+
+      .hide-logout {
+        margin-top: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .admin-navbar {
+    padding: 30px 0 20px;
+
+    .left {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .right {
+      .profile-wrap {
+        .text-wrap {
+          margin-right: 15px;
+
+          .name {
+            font-size: 16px;
+            line-height: 20px;
+          }
+
+          .admin {
+            font-size: 11px;
+            line-height: 13px;
+          }
+        }
+
+        .profile {
+          margin-right: 10px;
+          width: 50px;
+        }
+
+        .icon {
+          width: 15px;
+        }
+      }
+
+      .logout-btn {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 12px;
+      }
+
+      .hide-logout {
+        margin-top: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .admin-navbar {
+    padding: 30px 0 20px;
+
+    .left {
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    .right {
+      .profile-wrap {
+        .text-wrap {
+          margin-right: 10px;
+
+          .name {
+            font-size: 14px;
+            line-height: 17px;
+          }
+
+          .admin {
+            font-size: 10px;
+            line-height: 12px;
+          }
+        }
+
+        .profile {
+          margin-right: 0px;
+          width: 40px;
+        }
+
+        .icon {
+          display: none;
+        }
+      }
+
+      .logout-btn {
+        display: none;
+      }
+    }
+  }
+
+  .admin-sidebar-show-on-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .admin-navbar {
+    padding: 20px 0 10px;
+
+    .left {
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .right {
+      .profile-wrap {
+        .text-wrap {
+          margin-right: 10px;
+
+          .name {
+            font-size: 12px;
+            line-height: 16px;
+          }
+
+          .admin {
+            font-size: 9px;
+            line-height: 10px;
+          }
+        }
+
+        .profile {
+          margin-right: 5px;
+          width: 35px;
+        }
+
+        .icon {
+          width: 12px;
+        }
+      }
+
+      .logout-btn {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+}

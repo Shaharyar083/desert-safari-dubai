@@ -1,0 +1,309 @@
+.admin-sidebar {
+  min-width: 450px;
+  height: 100vh;
+  // overflow-y: scroll;
+  // background: linear-gradient(171.93deg, #7b0808 -0.69%, #820226 98.48%);
+  background-color: rgba(199, 8, 27, 1);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 5px 5px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top {
+    .logo {
+      font-size: 50px;
+      color: #fff;
+      margin-top: 100px;
+      margin-left: 50px;
+      margin-bottom: 93px;
+    }
+
+    .tab-wrap {
+      margin-bottom: 10px;
+      text-decoration: none;
+
+      display: flex;
+      align-items: center;
+
+      padding: 24px 0;
+      padding-left: 50px;
+
+      img {
+        fill: black;
+        color: black;
+      }
+
+      .label {
+        margin-left: 15px;
+        font-family: "Chivo";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+
+    .active {
+      text-decoration: none;
+
+      border-left: 5px solid #fff;
+      padding-left: 45px;
+
+      background: linear-gradient(90deg,
+          rgba(255, 255, 255, 0.3) 0%,
+          rgba(196, 196, 196, 0) 100%);
+
+      .label {
+        color: #fff;
+      }
+    }
+  }
+
+  .bottom {
+    padding: 0 55px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .down {
+      width: 100px;
+
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+
+    .text {
+      width: 160px;
+      font-family: "Chivo";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #fff;
+      margin: 16px 0 28px;
+    }
+
+    .logout-btn {
+      cursor: pointer;
+      width: 100%;
+      background: #fff;
+      border-radius: 5px;
+
+      font-family: "Chivo";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.9);
+
+      padding: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .admin-sidebar {
+    min-width: 300px;
+    min-width: 22%;
+
+    .top {
+      .logo {
+        margin-top: 35px;
+        margin-left: 25px;
+        margin-bottom: 35px;
+      }
+
+      .tab-wrap {
+        margin-bottom: 10px;
+        padding: 15px 0;
+        padding-left: 25px;
+
+        img {
+          width: 20px;
+        }
+
+        .label {
+          margin-left: 12px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+
+      .active {
+        padding-left: 20px;
+      }
+    }
+
+    .bottom {
+      padding: 0 25px 25px;
+
+      .down {
+        width: 60px;
+      }
+
+      .text {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 8px 0 20px;
+      }
+
+      .logout-btn {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .admin-sidebar {
+    // min-width: 200px;
+    // min-width: 250px;
+
+    .top {
+      .logo {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+
+        width: 100px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .tab-wrap {
+        margin-bottom: 0px;
+        padding: 15px 0;
+        padding-left: 20px;
+
+        img {
+          width: 16px;
+        }
+
+        .label {
+          margin-left: 10px;
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+
+      .active {
+        padding-left: 17px;
+        border-left: 3px solid #fff;
+      }
+    }
+
+    .bottom {
+      padding: 0 20px 20px;
+
+      .down {
+        width: 50px;
+      }
+
+      .text {
+        width: 120px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 5px 0 15px;
+      }
+
+      .logout-btn {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .admin-sidebar {
+    display: none;
+  }
+}
+
+.admin-mobile-sidebar {
+  // width: 300px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(171.93deg, #4059a6 -0.69%, #6ec8d2 98.48%);
+  background: rgba(199, 8, 27, 1);
+  box-shadow: 0px 4px 14px rgba(75, 36, 36, 0.5);
+  // border-radius: 5px 0px 0px 5px;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 18px;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .tab-wrap {
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    padding-left: 18px;
+
+    img {
+      width: 16px;
+    }
+
+    .label {
+      margin-left: 10px;
+      font-family: "Chivo";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .active {
+    text-decoration: none;
+
+    border-left: 3px solid #fff;
+    padding-left: 15px;
+
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(196, 196, 196, 0) 100%);
+
+    .label {
+      color: #fff;
+    }
+  }
+
+  .logout-btn {
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+    font-family: "Chivo";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+
+    margin: 30px 18px 0;
+  }
+}

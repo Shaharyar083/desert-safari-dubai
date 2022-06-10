@@ -1,0 +1,586 @@
+.admin-pages {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.admin-dashboard-page {
+  width: 100%;
+  overflow-y: scroll;
+
+  padding: 0 70px;
+
+  .circular-progress-bar-component {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+    .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 27px;
+      filter: drop-shadow(0px 4px 44px rgba(239, 35, 60, 0.3));
+      border-radius: 5px;
+
+      .progressbar {
+        width: 150px;
+        height: 150px;
+
+        .CircularProgressbar-text {
+          font-family: "Chivo" !important;
+          font-weight: 600 !important;
+          font-size: 20px !important;
+          letter-spacing: -1px !important;
+        }
+      }
+
+      .text {
+        margin-left: 20px;
+        font-family: "Chivo";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #6f6f6f;
+      }
+    }
+  }
+
+  .chart-component {
+    margin-top: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+
+    .title {
+      padding: 36px 34px 48px;
+      font-family: "Chivo";
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36px;
+      color: #000;
+    }
+
+    .chart {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px 50px;
+    }
+  }
+
+  .table-component {
+    margin: 20px 0 150px;
+
+    .MuiPaper-root {
+      background: #fff;
+      box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+    }
+
+    .MuiTableHead-root {
+      background: #f2f2f2;
+
+      .MuiTableCell-root {
+        border: none;
+        background: transparent;
+        padding: 0px;
+
+        font-family: "Chivo";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #6f6f6f;
+      }
+
+      .table-head-customize {
+        padding: 28px 50px 13px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          display: flex;
+          align-items: center;
+
+          .account-wrap {
+            font-family: "Chivo";
+            font-weight: 400;
+
+            .title {
+              font-size: 30px;
+              line-height: 36px;
+              color: #000;
+            }
+
+            .sub {
+              font-size: 24px;
+              line-height: 29px;
+              color: #6f6f6f;
+            }
+          }
+
+          .input-search {
+            margin-left: 50px;
+            max-width: 350px;
+            padding: 14px 20px;
+
+            background: #fff;
+            border-radius: 2px;
+
+            display: flex;
+            align-items: center;
+
+            img {
+              width: 34px;
+              cursor: pointer;
+            }
+
+            input {
+              width: 100%;
+              height: 100%;
+              margin-left: 14px;
+
+              background: transparent;
+
+              outline: none;
+              border: none;
+
+              font-family: "Chivo";
+              font-size: 24px;
+              line-height: 29px;
+
+              color: rgba(0, 0, 0, 0.3);
+            }
+          }
+        }
+
+        .right {
+          cursor: pointer;
+          background: rgba(81, 136, 162, 0.9);
+          box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
+          border-radius: 2px;
+          font-family: "Chivo";
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: #fff;
+          padding: 15px 24px;
+
+          display: flex;
+          align-items: center;
+
+          .plus {
+            margin-top: -2%;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .header-root {
+        padding: 25px 0 20px 50px;
+      }
+    }
+
+    .MuiTableBody-root {
+      .MuiTableCell-root {
+        border-bottom: 1px solid #c4c4c4;
+        background: transparent;
+        padding: 20px 0 20px 50px;
+
+        font-family: "Chivo";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000;
+      }
+
+      .payment-wrap {
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .MuiTablePagination-root {
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .admin-dashboard-page {
+    padding: 0 20px;
+
+    .circular-progress-bar-component {
+      margin-top: 20px;
+      gap: 20px;
+
+      .wrap {
+        padding: 20px 10px;
+
+        .progressbar {
+          width: 130px;
+          height: 130px;
+
+          .CircularProgressbar-text {
+            font-size: 17px !important;
+            letter-spacing: -1px !important;
+          }
+        }
+
+        .text {
+          margin-left: 16px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+    }
+
+    .chart-component {
+      margin-top: 20px;
+
+      .title {
+        padding: 30px 20px 40px;
+
+        font-size: 26px;
+        line-height: 32px;
+      }
+
+      .chart {
+        padding: 0 20px 40px;
+      }
+    }
+
+    .table-component {
+      margin: 20px 0 100px;
+
+      .MuiTableHead-root {
+        .MuiTableCell-root {
+          font-size: 20px;
+          line-height: 25px;
+        }
+
+        .table-head-customize {
+          padding: 20px 30px 10px;
+
+          .left {
+            .account-wrap {
+              .title {
+                font-size: 26px;
+                line-height: 32px;
+              }
+
+              .sub {
+                font-size: 20px;
+                line-height: 25px;
+              }
+            }
+
+            .input-search {
+              margin-left: 30px;
+              max-width: 350px;
+              padding: 12px 16px;
+
+              img {
+                width: 30px;
+              }
+
+              input {
+                margin-left: 10px;
+                font-size: 20px;
+                line-height: 25px;
+              }
+            }
+          }
+
+          .right {
+            font-size: 20px;
+            line-height: 25px;
+            padding: 14px 20px;
+          }
+        }
+
+        .header-root {
+          padding: 25px 0 20px 30px;
+        }
+      }
+
+      .MuiTableBody-root {
+        .MuiTableCell-root {
+          padding: 20px 0 20px 30px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+
+        .payment-wrap {
+          img {
+            width: 40px;
+          }
+
+          span {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .admin-dashboard-page {
+    padding: 0 20px;
+
+    .circular-progress-bar-component {
+      margin-top: 20px;
+      gap: 20px;
+
+      .wrap {
+        padding: 20px 10px;
+
+        .progressbar {
+          width: 100px;
+          height: 100px;
+
+          .CircularProgressbar-text {
+            font-size: 17px !important;
+          }
+        }
+
+        .text {
+          margin-left: 10px;
+          font-size: 17px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .chart-component {
+      margin-top: 20px;
+
+      .title {
+        padding: 20px 15px 30px;
+        font-size: 23px;
+        line-height: 29px;
+      }
+
+      .chart {
+        padding: 0 15px 30px;
+      }
+    }
+
+    .table-component {
+      margin: 20px 0 90px;
+
+      .MuiTableHead-root {
+        .MuiTableCell-root {
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .table-head-customize {
+          padding: 15px 20px;
+
+          .left {
+            .account-wrap {
+              .title {
+                font-size: 22px;
+                line-height: 28px;
+              }
+
+              .sub {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+
+            .input-search {
+              margin-left: 20px;
+
+              img {
+                width: 25px;
+              }
+
+              input {
+                margin-left: 10px;
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+
+          .right {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+
+        .header-root {
+          padding: 15px 20px;
+        }
+      }
+
+      .MuiTableBody-root {
+        .MuiTableCell-root {
+          padding: 15px 0 15px 20px;
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .payment-wrap {
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .admin-dashboard-page {
+    padding: 0 20px;
+
+    .circular-progress-bar-component {
+      margin-top: 20px;
+      gap: 20px;
+
+      .wrap {
+        padding: 10px;
+
+        .progressbar {
+          width: 80px;
+          height: 80px;
+        }
+
+        .text {
+          margin-left: 5px;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .chart-component {
+      margin-top: 20px;
+
+      .title {
+        padding: 20px 15px 25px;
+        font-size: 20px;
+        line-height: 26px;
+      }
+
+      .chart {
+        padding: 0 15px 25px;
+      }
+    }
+
+    .table-component {
+      margin: 20px 0 80px;
+
+      .MuiTableHead-root {
+        .MuiTableCell-root {
+          font-size: 13px;
+          line-height: 17px;
+        }
+
+        .table-head-customize {
+          .left {
+            .account-wrap {
+              .title {
+                font-size: 17px;
+                line-height: 25px;
+              }
+
+              .sub {
+                font-size: 13px;
+                line-height: 17px;
+              }
+            }
+
+            .input-search {
+              img {
+                width: 20px;
+              }
+
+              input {
+                font-size: 13px;
+                line-height: 17px;
+              }
+            }
+          }
+
+          .right {
+            font-size: 13px;
+            line-height: 17px;
+          }
+        }
+      }
+
+      .MuiTableBody-root {
+        .MuiTableCell-root {
+          font-size: 13px;
+          line-height: 17px;
+        }
+
+        .payment-wrap {
+          img {
+            width: 20px;
+          }
+
+          span {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .admin-dashboard-page {
+    padding: 0 10px;
+
+    .circular-progress-bar-component {
+      margin-top: 10px;
+      grid-template-columns: auto;
+      gap: 10px;
+
+      .wrap {
+        padding: 15px;
+
+        .progressbar {
+          width: 100px;
+          height: 100px;
+        }
+
+        .text {
+          width: 108px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .chart-component {
+      margin-top: 10px;
+
+      .title {
+        padding: 15px 10px 20px;
+      }
+
+      .chart {
+        padding: 0 10px 20px;
+      }
+    }
+
+    .table-component {
+      margin: 10px 0 50px;
+    }
+  }
+}

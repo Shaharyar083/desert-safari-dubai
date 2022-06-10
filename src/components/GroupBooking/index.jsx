@@ -3,7 +3,7 @@ import Header from "../Header";
 import "./groupbooking.css";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdMarkEmailRead } from "react-icons/md";
-
+import axios from "axios";
 const GroupBooking = () => {
   const [state, setState] = useState({});
   const [show, setShow] = useState({});
@@ -19,11 +19,17 @@ const GroupBooking = () => {
   };
 
   const handleShowForm = ({ key, value }) => {
-    if (Object.keys(value)?.length > 0) console.log("value", value);
-    setShow({
-      ...show,
-      [key]: value,
-    });
+    if (Object.keys(value)?.length > 0)
+      setShow({
+        ...show,
+        [key]: value,
+      });
+  };
+
+  const submit = async () => {
+    await axios.post("http://localhost:5000/booking/addbooking", state);
+    setState({});
+    setShow({});
   };
 
   return (
@@ -32,8 +38,8 @@ const GroupBooking = () => {
 
       <div className="group_booking_wrapper">
         <div>
-          {/* info */}
           <div className="booking_card_wrapper">
+            {/* info */}
             <div className="bookingcard ">
               <div className="form_input_wrapper">
                 <div className="input_container">
@@ -551,13 +557,13 @@ const GroupBooking = () => {
 
             {/* visa */}
             <div className="bookingcard ">
-              <div
-                className="input_container"
-                name="visa"
-                value={state?.visa?.visa}
-                onChange={(e) => handleInputs(e, "visa")}
-              >
-                <select className="form_input">
+              <div className="input_container">
+                <select
+                  className="form_input"
+                  name="visa"
+                  value={state?.visa?.visa}
+                  onChange={(e) => handleInputs(e, "visa")}
+                >
                   <option className="opt_text">Visa’s </option>
                   <option className="opt_text">Single Short</option>
                   <option className="opt_text">Long Term</option>
@@ -598,6 +604,10 @@ const GroupBooking = () => {
                 Enter
               </div>
             </div>
+          </div>
+
+          <div className="submit" onClick={submit}>
+            Submit
           </div>
         </div>
 
