@@ -1,0 +1,23 @@
+.whats_conttainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.whats_num{
+    font-size: 17px;
+    font-weight: 600;
+    color: #3c763d;
+    cursor: pointer;
+}
+.phone_num{
+    font-size: 12px;
+    color: #c7081b !important;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+@media screen and (max-width:800px){
+    .whats_conttainer{
+        display: none;
+    }
+}

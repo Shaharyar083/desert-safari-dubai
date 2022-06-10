@@ -1,0 +1,95 @@
+.slider_card_wrapper{
+    height: 260px;
+    width: 270px;
+    border-bottom: 2px solid red !important;
+    margin-top: 0px 20px;
+}
+.custom_containerslider{
+    padding: 0px 50px;
+}
+.slider_img{
+    height: 200px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+.card_name{
+    font-size: 20px;
+    color: #c7081b;
+    font-weight: 700;
+    display: flex;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ofer_buy{
+    background-color: orange;
+    height: 30px;
+    width: 220px;
+    color: #c7081b;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider_heading{
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    color: #c7081b;
+}
+.slider_seprator{
+    border: 1px solid #c7081b;
+    width: 15%;
+    margin: 5px 0px 15px 0px;
+}
+slick-dots li.slick-active button:before{
+    color: #c7081b !important;
+}
+
+@media screen and (max-width:620px){
+    .email_num_wrapper{
+        background-color: #c7081b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto !important;
+        align-items: center;
+        padding: 20px 40px;
+    }
+} 
+@media screen and (max-width:768px){
+    .slider_card_wrapper{
+        height: 250px;
+        width: 250px;
+        padding: 0px 10px;
+        border-bottom: 2px solid red !important;
+        margin: 0px 30px 20px 0px;
+    }
+    .slider_heading{
+        display: flex;
+        font-size: 22px;
+        font-weight: 700;
+        color: #c7081b;
+    }
+}
+@media screen and (max-width:528px){
+    .slider_card_wrapper{
+        height: 200px !important;
+        width: 270px;
+        border-radius: 5px;
+        margin: auto !important;
+        border-bottom: 2px solid red !important;
+        margin-top: 0px 0px !important;
+    }
+    .slider_heading{
+        display: flex;
+        font-size: 18px;
+        font-weight: 700;
+        color: #c7081b;
+    }
+}
