@@ -10,7 +10,7 @@ export const cityTourArray=[
     {
     name:"Dubai City Tour",
     desription:"Discover Dubai’s historical, cultural, and unequaled modern side all on this comprehensive Dubai city tour! With roundtrip hotel transfers, this allows you to take in the region’s mix of old, iconic, and celebrated landmarks.The four-hour Dubai city tour package by desert safari tours is one of the best ways to explore the both historic and glittering side of Dubai that is often referred to as the Middle East’s gem. The tour includes a visit to Dubai Museum that is housed within the 18th century Al Fahidi Fort. It has on display arts and artifacts reflecting the ancient history and lifestyle of traditional Arabs. An ideal illustration of a blend of outstanding Islamic and contemporary architecture, Jumeirah Mosque is another popular point of interest covered in the itinerary.",
-    ofers1:"⦁	Photo stop at Dubai Creek",
+    ofers1:"Photo stop at Dubai Creek",
     ofers2:"	Dubai Museum",
     ofers3:" Drive through Jumeira Road",
     ofers4:" Visit at Jumeirah Mosque",
