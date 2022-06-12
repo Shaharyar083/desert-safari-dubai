@@ -612,19 +612,20 @@ const GroupBooking = () => {
         </div>
 
         <div className="side_right">
-          <div className="cal_wrapper" style={{ color: "#fff" }}>
-            {Object.keys(show)?.length > 0 &&
-              Object.keys(show)?.map((parentKey, pIndex) => (
-                <div key={pIndex} style={{ marginBottom: "20px" }}>
-                  <div>{parentKey}:</div>
+          {Object.keys(show)?.length > 0 && (
+            <div className="cal_wrapper" style={{ color: "#fff" }}>
+              {Object.keys(show)?.map((parentKey, pIndex) => (
+                <div key={pIndex} className="table-wrap">
+                  <div className="table-heading">{parentKey}</div>
                   {Object.keys(show[parentKey])?.map((key, index) => (
-                    <div key={index} style={{ color: "#fff" }}>
-                      {key}: {show[parentKey][key]}
+                    <div key={index} className="table-body">
+                      <span>{key}</span>: {show[parentKey][key]}
                     </div>
                   ))}
                 </div>
               ))}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </>
