@@ -27,7 +27,7 @@ const GroupBooking = () => {
   };
 
   const submit = async () => {
-    await axios.post("http://localhost:5000/booking/addbooking", state);
+    await axios.post("http://localhost:6000/booking/addbooking", state);
     setState({});
     setShow({});
   };
@@ -37,7 +37,7 @@ const GroupBooking = () => {
       <Header />
 
       <div className="group_booking_wrapper">
-        <div>
+        <div style={{width:"100%"}}>
           <div className="booking_card_wrapper">
             {/* info */}
             <div className="bookingcard ">

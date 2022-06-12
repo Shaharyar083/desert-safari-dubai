@@ -32,7 +32,7 @@ export const desertSefariArray=[
 {
     name:"Evening Desert Safari",
     desription:"Evening Desert Safari Dubai is a 6 Hour Tour in the Desert full of Excitement and Thrill. The voyage combines various activities like Dune Bashing, Belly Dancing, Tanura Dance, Camel Riding, Sand Boarding and Horse Riding. Not only is this, but your palate is also taken care of; delicious BBQ Dinner with Veg and non-Veg Optional Dishes are served during your Evening Desert Safari Tour.A interesting travel experience in Dubai’s desert is just one click away, and there are a plethora of things to choose from. From camel riding to belly dancing to photographing breathtaking sunsets, Dubai Desert Safari is a comprehensive package for anyone looking to be thoroughly amused.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -57,7 +57,7 @@ export const desertSefariArray=[
 {
     name:"Dune Buggy Ride",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -71,8 +71,7 @@ export const desertSefariArray=[
     MUSTDOData:"One must get a camera when going to a desert safari in Dubai as the views are breath-taking and awesome. Also one should wear comfortable clothes and avoid jewelry or expensive watch and cell phones as there is no signal at the camps. Do try the Arabic coffee at the camp and shake your belly with our belly dancer!",
     SANDSKI:"SAND SKI",
     SANDSKIData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
-    CAMELTREK:"CAMEL TREK",
-    CAMELTREKData:"Another popular activity in the desert is the camel trek. Enjoy the sunset while you are on the highest dune going towards the camp where you have drinks and dinner waiting for you.",
+   
     price:"299",
     image:cardImage3,
     timeAndDate:"Approx 1 Hours",
@@ -82,7 +81,7 @@ export const desertSefariArray=[
 {
     name:"Quad Bike Sefari",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -96,8 +95,7 @@ export const desertSefariArray=[
     MUSTDOData:"One must get a camera when going to a desert safari in Dubai as the views are breath-taking and awesome. Also one should wear comfortable clothes and avoid jewelry or expensive watch and cell phones as there is no signal at the camps. Do try the Arabic coffee at the camp and shake your belly with our belly dancer!",
     SANDSKI:"SAND SKI",
     SANDSKIData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
-    CAMELTREK:"CAMEL TREK",
-    CAMELTREKData:"Another popular activity in the desert is the camel trek. Enjoy the sunset while you are on the highest dune going towards the camp where you have drinks and dinner waiting for you.",
+   
     price:"399",
     image:cardImage4,
     timeAndDate:"Approx 30 Minutes",
@@ -108,7 +106,7 @@ export const desertSefariArray=[
 {
     name:"Quad Bike Ride",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -122,8 +120,7 @@ export const desertSefariArray=[
     MUSTDOData:"One must get a camera when going to a desert safari in Dubai as the views are breath-taking and awesome. Also one should wear comfortable clothes and avoid jewelry or expensive watch and cell phones as there is no signal at the camps. Do try the Arabic coffee at the camp and shake your belly with our belly dancer!",
     SANDSKI:"SAND SKI",
     SANDSKIData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
-    CAMELTREK:"CAMEL TREK",
-    CAMELTREKData:"Another popular activity in the desert is the camel trek. Enjoy the sunset while you are on the highest dune going towards the camp where you have drinks and dinner waiting for you.",
+   
     price:"551",
     image:cardImage,
     timeAndDate:"9PM - 3PM, 20th Apr (1 Hours)",
@@ -132,7 +129,7 @@ export const desertSefariArray=[
 {
     name:"Camel Ride",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -146,15 +143,15 @@ export const desertSefariArray=[
     MUSTDOData:"One must get a camera when going to a desert safari in Dubai as the views are breath-taking and awesome. Also one should wear comfortable clothes and avoid jewelry or expensive watch and cell phones as there is no signal at the camps. Do try the Arabic coffee at the camp and shake your belly with our belly dancer!",
     SANDSKI:"SAND SKI",
     SANDSKIData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
-    CAMELTREK:"CAMEL TREK",
-    CAMELTREKData:"Another popular activity in the desert is the camel trek. Enjoy the sunset while you are on the highest dune going towards the camp where you have drinks and dinner waiting for you.",
+   
     price:"51",
     image:cardImage,
     timeAndDate:"12PM - 3PM, 20th Apr (3 Hours)",
     totalGuest:"10"
-},    {
+},   
+ {
     name:"Overnight Sefari",
-    description:"Overnight Desert Safari offers various drills to relish in the desert and it’s best for you. Undergo the fervor filled for the time being Dubai Overnight to broaden your legacy ordeal of the Middle East. We offer our visitors the stunning Overnight Safari in Desert visit to give you a dramatic look at the desert way of life and culture of the Middle East.Our total affair visit, the Dubai Overnight Desert Safari enlarges your Dubai legacy experience with a startling Overnight visit under the moon and starlit sky at our campsite. We offer you a chance to make a stride back on the Overnight Safari Desert record and suffer how Dubai was around fifty years back.",
+    desription:"Overnight Desert Safari offers various drills to relish in the desert and it’s best for you. Undergo the fervor filled for the time being Dubai Overnight to broaden your legacy ordeal of the Middle East. We offer our visitors the stunning Overnight Safari in Desert visit to give you a dramatic look at the desert way of life and culture of the Middle East.Our total affair visit, the Dubai Overnight Desert Safari enlarges your Dubai legacy experience with a startling Overnight visit under the moon and starlit sky at our campsite. We offer you a chance to make a stride back on the Overnight Safari Desert record and suffer how Dubai was around fifty years back.",
     ofers1:" Dune Bashing",
     ofers2:" Dune Bashing in 4x4",
     ofers3:"Buffet Dinner, and BBQ",
@@ -162,14 +159,19 @@ export const desertSefariArray=[
     ofers5:"Tents Stay in The Desert Of Dubai",
     ofers6:"Air-conditioned vehicle",
     ofers7:"Live Entertainment Performance",
-    MUSTDO:"Do get a tripod if you have a camera, which you can use, as the night sky and the morning sun rise in the desert is really beautiful. Carry your towels and basic toiletries, we advise not to carry a big bag as our cars really don't have space for any luggage. If you are spending your first night at the camp when you are in Dubai, please check in your luggage at the hotel where you are going to stay next. Leave all the electronics at home/hotel as there are no electrical points at the camp and the whole experience of the desert is to enjoy the sounds of the desert and the night.",
+    MUSTDO:"MUST DO'S",
+    SANDSKIData:"Do get a tripod if you have a camera, which you can use, as the night sky and the morning sun rise in the desert is really beautiful. Carry your towels and basic toiletries, we advise not to carry a big bag as our cars really don't have space for any luggage. If you are spending your first night at the camp when you are in Dubai, please check in your luggage at the hotel where you are going to stay next. Leave all the electronics at home/hotel as there are no electrical points at the camp and the whole experience of the desert is to enjoy the sounds of the desert and the night.",
+    SANDSKI:"SAND SKI",
+    MUSTDOData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
+    CAMELTREK:"CAMEL TREK",
+    CAMELTREKData:"Another popular activity in the desert is the camel trek. Enjoy the sunset while you are on the highest dune going towards the camp where you have drinks and dinner waiting for you.",
     price:"551",
     image:cardImage,
     timeAndDate:"12PM - 3PM, 3th Apr (3 Hours)",
     totalGuest:"10"
 },    {
     name:"Dinner in Desert",
-    description:"A minimum of 2 people would make this safari exceptionally enjoyable but, if you are alone, do not hesitate to book this overnight desert safari Dubai. The overnight Dubai safari is an extension of the evening desert safari and commences once the guests of the evening safari have left the campsite. You can relax at the overnight tent during the night and enjoy the starry desert experience. Tent along with mattresses, pillows and blankets will be provided. We do have washroom and shower facilities at the desert safari camp. You will be served fresh breakfast in the morning along with tea/coffee before you head back to your hotel.",
+    desription:"A minimum of 2 people would make this safari exceptionally enjoyable but, if you are alone, do not hesitate to book this overnight desert safari Dubai. The overnight Dubai safari is an extension of the evening desert safari and commences once the guests of the evening safari have left the campsite. You can relax at the overnight tent during the night and enjoy the starry desert experience. Tent along with mattresses, pillows and blankets will be provided. We do have washroom and shower facilities at the desert safari camp. You will be served fresh breakfast in the morning along with tea/coffee before you head back to your hotel.",
     ofers1:" Pick up from all centrally located hotels in Dubai and meeting point in Sharjah",
     ofers2:" Dune Bashing in 4x4",
     ofers3:"Sunset photography stop",
@@ -177,7 +179,13 @@ export const desertSefariArray=[
     ofers5:" Camel rides",
     ofers6:"Belly dance show (not during Ramadan)",
     ofers7:"Bar - On Payment basis - (not during Ramadan)",
-    MUSTDO:"Do get a tripod if you have a camera, which you can use, as the night sky and the morning sun rise in the desert is really beautiful. Carry your towels and basic toiletries, we advise not to carry a big bag as our cars really don't have space for any luggage. If you are spending your first night at the camp when you are in Dubai, please check in your luggage at the hotel where you are going to stay next. Leave all the electronics at home/hotel as there are no electrical points at the camp and the whole experience of the desert is to enjoy the sounds of the desert and the night.",
+    MUSTDO:"MUST DO'S",
+    SANDSKIData:"Do get a tripod if you have a camera, which you can use, as the night sky and the morning sun rise in the desert is really beautiful. Carry your towels and basic toiletries, we advise not to carry a big bag as our cars really don't have space for any luggage. If you are spending your first night at the camp when you are in Dubai, please check in your luggage at the hotel where you are going to stay next. Leave all the electronics at home/hotel as there are no electrical points at the camp and the whole experience of the desert is to enjoy the sounds of the desert and the night.",
+    SANDSKI:"SAND SKI",
+    MUSTDOData:"A very popular part of the desert safari. You get to ski from the highest dunes on a ski board, everyone can do it, as if you fall the soft sand is there to catch you. A thrilling experience and one that everyone should do a desert safari. We recommend you to book the red dune safari to enjoy sand-skiing the best.",
+    
+    SAFETY:"SAFETY",
+    SAFETYData:"Our drivers are professional and licensed drivers and are trained in first aid. Our cars are fitted with roll cage to protect the occupants from being injured in an accident, particularly in the event of a roll-over in the desert which is very rare. Plus there are seat belts for every passenger. We use 4x4 Land Cruisers for our safari. Also from the moment you are in our cars you are insured. All our cars and the passengers are covered under insurance.",
     price:"251",
     image:cardImage,
     timeAndDate:"12PM - 3PM, 20th Apr (5 Hours)",

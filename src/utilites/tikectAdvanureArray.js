@@ -7,7 +7,7 @@ export const ticketAdvanureArray=[
     {
     name:"Yellow Boat",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -31,7 +31,7 @@ export const ticketAdvanureArray=[
 {
     name:"Ballon Ride",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -55,7 +55,7 @@ export const ticketAdvanureArray=[
 {
     name:"Big Bus Tour",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -79,7 +79,7 @@ export const ticketAdvanureArray=[
 {
     name:"Burj Al Arab Jet Ski Tour",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",

@@ -102,7 +102,7 @@ const DetailPage = () => {
 
 
             </div>
-             <div className='para_content1 mt-5'>{cardData?.desr2}</div>
+        {cardData?.desr2 &&     <div className='para_content1 mt-5'>{cardData?.desr2}</div>}
             {cardData?.SAFETY && <div className='para_points_tags'>{cardData?.SAFETY}</div>}
             {cardData?.SAFETYData && <div className='para_content1'>{cardData?.SAFETYData}</div>}
             {cardData?.MUSTDO && <div className='para_points_tags'>{cardData?.MUSTDO}</div>}

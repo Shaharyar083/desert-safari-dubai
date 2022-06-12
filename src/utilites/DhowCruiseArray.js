@@ -9,7 +9,7 @@ export const DhowCruiseArray=[
     {
     name:"Dhow Creek Cruise",
     desription:"Dubai is more beautiful and attractive in the evening and in the night. Dhow Creek Cruise is an outstanding experience of spending the holiday and to make it gracious. Basically, it is also another way of sightseeing and viewing the wonders of city with your friends and family. In the evening under the moonlight and by seeing the other bright things of city will make you happy because it seems to be the part of heaven in the world",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:"Romantic ambiance at our Dhow while cruising & dining aboard",
     ofers3:"Welcome non-alcoholic drink on arrival",
     ofers4:" Two hours cruising on Dubai Creek",
@@ -33,7 +33,7 @@ export const DhowCruiseArray=[
 {
     name:"Dubai Ferry Ride",
     desription:"Hop, aboard the new Dubai Ferry with routine that circle the city historical sites and striking coastline, it provides pleasant change of scenery. And with a luxurious interior you can rest assured your journey will be comfortable as it is memorable.The Dubai Ferry plies along the Dubai Marina, the Dubai Creek. The Ferry plies on several routes that go from one port to another so that the people on board can enjoy a good view of the attractions on the shorelines. There are Dubai Ferry stations at either end of Dubai. There’s one on the Dubai Marina, and in Al Ghubaiba. ",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
@@ -79,7 +79,7 @@ export const DhowCruiseArray=[
 {
     name:"Dhow Marina Curise",
     desription:"This tour starts in the afternoon across the desert of Dubai with several stops for photography. During an exciting dune drive you arrive at the first destination for a beautiful sunset. We stop to watch the sunset and continue with Dune bashing to finally reach our campsite. Here you have the opportunity to do a camel ride, sand boarding and try out a henna design on hand or feet. After working up an appetite you get to enjoy a delicious barbecue dinner and shisha (the famous Arabic water pipe). You also get to enjoy our Fire show and Tanura show performance around the campfire by starlight.",
-    ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
+    //ofers1:"Pick up by 4x4 wheel Drive from any point in Dubai between 3.00 PM to 3.30 PM – timings are subject to change as per sunset time",
     ofers2:" Drive through the desert along Al Awir Road - Dune Bashing",
     ofers3:" 20-30 minutes Dune Driving",
     ofers4:" Sun Set Photography",
