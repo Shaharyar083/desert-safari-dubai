@@ -9,6 +9,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
+import GuideModal from "./GuideModal";
 
 // import components
 // import InputSearch from "../Input Search/input-search";
@@ -30,9 +31,13 @@ const columns = [
     label: "Person",
     minWidth: 170,
   },
+  {
+    id: "guide",
+    label: "Guide",
+  },
 ];
 
-const TourTable = ({ data }) => {
+const TourTable = ({ data, fetchData }) => {
   const [rows, setRows] = useState([]);
 
   // Pagination Functionality Start
@@ -86,6 +91,20 @@ const TourTable = ({ data }) => {
                       <TableCell>{row?.tour?.type}</TableCell>
                       <TableCell>{row?.tour?.date}</TableCell>
                       <TableCell>{row?.tour?.person}</TableCell>
+                      <TableCell>
+                        {row?.tour?.guide ? (
+                          <div>{row?.tour?.guide}</div>
+                        ) : (
+                          <GuideModal
+                            id={row?._id}
+                            data={row}
+                            objectKey={"tour"}
+                            fetchData={fetchData}
+                          >
+                            Assign Guide
+                          </GuideModal>
+                        )}
+                      </TableCell>
                     </TableRow>
                   );
                 })}

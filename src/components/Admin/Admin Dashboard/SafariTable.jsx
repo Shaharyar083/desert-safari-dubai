@@ -9,6 +9,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
+import GuideModal from "./GuideModal";
 
 // import components
 // import InputSearch from "../Input Search/input-search";
@@ -31,9 +32,13 @@ const columns = [
     label: "Person",
     minWidth: 170,
   },
+  {
+    id: "guide",
+    label: "Guide",
+  },
 ];
 
-const SafariTable = ({ data }) => {
+const SafariTable = ({ data, fetchData }) => {
   const [rows, setRows] = useState([]);
 
   // Pagination Functionality Start
@@ -87,6 +92,20 @@ const SafariTable = ({ data }) => {
                       <TableCell>{row?.safari?.safari}</TableCell>
                       <TableCell>{row?.safari?.date}</TableCell>
                       <TableCell>{row?.safari?.person}</TableCell>
+                      <TableCell>
+                        {row?.safari?.guide ? (
+                          <div>{row?.safari?.guide}</div>
+                        ) : (
+                          <GuideModal
+                            id={row?._id}
+                            data={row}
+                            objectKey={"safari"}
+                            fetchData={fetchData}
+                          >
+                            Assign Guide
+                          </GuideModal>
+                        )}
+                      </TableCell>
                     </TableRow>
                   );
                 })}
