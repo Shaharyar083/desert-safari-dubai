@@ -9,6 +9,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
+import GuideModal from "./GuideModal";
 
 // import components
 // import InputSearch from "../Input Search/input-search";
@@ -30,9 +31,13 @@ const columns = [
     label: "Person",
     minWidth: 170,
   },
+  {
+    id: "guide",
+    label: "Guide",
+  },
 ];
 
-const VisaTable = ({ data }) => {
+const VisaTable = ({ data, fetchData }) => {
   const [rows, setRows] = useState([]);
 
   // Pagination Functionality Start
@@ -88,6 +93,20 @@ const VisaTable = ({ data }) => {
                       <TableCell>{row?.visa?.date}</TableCell>
 
                       <TableCell>{row?.visa?.person}</TableCell>
+                      <TableCell>
+                        {row?.visa?.guide ? (
+                          <div>{row?.visa?.guide}</div>
+                        ) : (
+                          <GuideModal
+                            id={row?._id}
+                            data={row}
+                            objectKey={"visa"}
+                            fetchData={fetchData}
+                          >
+                            Assign Guide
+                          </GuideModal>
+                        )}
+                      </TableCell>
                     </TableRow>
                   );
                 })}

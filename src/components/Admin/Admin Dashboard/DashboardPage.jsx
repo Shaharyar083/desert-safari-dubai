@@ -35,16 +35,19 @@ const DashboardPage = () => {
       <div className="admin-dashboard-page">
         <AdminNavbar title="Dashboard" />
 
-        <TableComponent data={state} />
-        <TourTable data={state} />
-        <HotelTable data={state} />
-        <SafariTable data={state} />
-        <CruiseTable data={state} />
-        <YachtTable data={state} />
-        <TicketTable data={state} />
-        <CarTable data={state} />
-        <EatTable data={state} />
-        <VisaTable data={state} />
+        <TableComponent
+          data={state}
+          fetchData={fetchData}
+        />
+        <TourTable data={state} fetchData={fetchData} />
+        <HotelTable data={state} fetchData={fetchData} />
+        <SafariTable data={state} fetchData={fetchData} />
+        <CruiseTable data={state} fetchData={fetchData} />
+        <YachtTable data={state} fetchData={fetchData} />
+        <TicketTable data={state} fetchData={fetchData} />
+        <CarTable data={state} fetchData={fetchData} />
+        <EatTable data={state} fetchData={fetchData} />
+        <VisaTable data={state} fetchData={fetchData} />
       </div>
     </div>
   );

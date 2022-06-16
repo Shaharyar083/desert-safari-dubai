@@ -9,6 +9,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
+import GuideModal from "./GuideModal";
 
 // import components
 // import InputSearch from "../Input Search/input-search";
@@ -31,9 +32,14 @@ const columns = [
     label: "Person",
     minWidth: 170,
   },
+
+  {
+    id: "guide",
+    label: "Guide",
+  },
 ];
 
-const CruiseTable = ({ data }) => {
+const CruiseTable = ({ data, fetchData }) => {
   const [rows, setRows] = useState([]);
 
   // Pagination Functionality Start
@@ -89,6 +95,20 @@ const CruiseTable = ({ data }) => {
                       <TableCell>{row?.cruise?.date}</TableCell>
 
                       <TableCell>{row?.cruise?.person}</TableCell>
+                      <TableCell>
+                        {row?.cruise?.guide ? (
+                          <div>{row?.cruise?.guide}</div>
+                        ) : (
+                          <GuideModal
+                            id={row?._id}
+                            data={row}
+                            objectKey={"cruise"}
+                            fetchData={fetchData}
+                          >
+                            Assign Guide
+                          </GuideModal>
+                        )}
+                      </TableCell>
                     </TableRow>
                   );
                 })}
