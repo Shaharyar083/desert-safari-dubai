@@ -60,6 +60,7 @@ const CarTable = ({ data }) => {
 
   return (
     <div className="table-component">
+        <div className="Heading_tab">Car Detail</div>
       <Paper sx={{ width: "100%" }}>
         <TableContainer>
           <Table stickyHeader aria-label="sticky table">

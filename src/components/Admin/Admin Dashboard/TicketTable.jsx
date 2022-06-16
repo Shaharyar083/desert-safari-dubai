@@ -60,6 +60,7 @@ const TicketTable = ({ data }) => {
 
   return (
     <div className="table-component">
+       <div className="Heading_tab">Ticket Detail</div>
       <Paper sx={{ width: "100%" }}>
         <TableContainer>
           <Table stickyHeader aria-label="sticky table">

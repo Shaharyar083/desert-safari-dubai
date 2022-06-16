@@ -59,6 +59,7 @@ const VisaTable = ({ data }) => {
 
   return (
     <div className="table-component">
+       <div className="Heading_tab">Visa Detail</div>
       <Paper sx={{ width: "100%" }}>
         <TableContainer>
           <Table stickyHeader aria-label="sticky table">

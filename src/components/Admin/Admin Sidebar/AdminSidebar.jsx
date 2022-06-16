@@ -54,7 +54,7 @@ const AdminSidebar = ({ show, close }) => {
         <div className="top">
           <div className="logo">
             {/* <img src={logo} alt="" /> */}
-            DSD
+            D-S
           </div>
 
           {tabArray.map((data, i) => (

@@ -9,6 +9,14 @@
     color: #3c763d;
     cursor: pointer;
 }
+.Heading_tab{
+    font-size: 32px ;
+    color: #c7081b;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .phone_num{
     font-size: 12px;
     color: #c7081b !important;

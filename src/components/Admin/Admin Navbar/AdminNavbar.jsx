@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./adminNavbar.scss";
 
 // import images
-import profileImg from "../../../assets/images/dashboard/profile.png";
+import profileImg from "../../../assets/images/dashboard/jess.jpg";
 import AdminSidebar from "../Admin Sidebar/AdminSidebar";
 
 const AdminNavbar = ({ title }) => {
@@ -23,7 +23,7 @@ const AdminNavbar = ({ title }) => {
             }}
           >
             <div className="text-wrap">
-              <div className="name">Jerome Bell</div>
+              <div className="name">Jess</div>
               <div className="admin">Admin</div>
             </div>
 
