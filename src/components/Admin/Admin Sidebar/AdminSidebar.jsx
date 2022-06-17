@@ -7,7 +7,6 @@ import { ImCross } from "react-icons/im";
 // import packages
 import { useLocation, Link } from "react-router-dom";
 import { Offcanvas } from "react-bootstrap";
-
 // import images
 import logo from "../../../assets/images/dashboard/logo.png";
 import icon1 from "../../../assets/images/dashboard/icon1.png";

@@ -8,6 +8,7 @@ import SliderDetail from "../src/components/SliderDetsilPage";
 import ComboDeals from "../src/components/comboDeals";
 import GroupBooking from "../src/components/GroupBooking";
 import AdminDashboard from "../src/components/Admin/Admin Dashboard";
+import Login from "../src/components/Login"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/combo-deals" element={<ComboDeals />} />
           <Route path="/group-booking" element={<GroupBooking />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
+          <Route path="/admin-login" element={<Login />} />
         </Routes>
       </Router>
       <Footer />

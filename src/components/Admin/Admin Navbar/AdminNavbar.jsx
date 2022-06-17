@@ -7,7 +7,6 @@ import AdminSidebar from "../Admin Sidebar/AdminSidebar";
 
 const AdminNavbar = ({ title }) => {
   const [show, setShow] = useState(false);
-
   const Logout = () => {};
 
   return (
